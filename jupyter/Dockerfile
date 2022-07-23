@@ -6,7 +6,10 @@ RUN apt-get update && apt-get install -y git
 COPY requirements.txt ./requirements.txt
 RUN pip install -r requirements.txt
 # add
-RUN pip install git+https://github.com/pandas-profiling/pandas-profiling.git
+# RUN pip install lightgbm
+# # RUN pip install git+https://github.com/pandas-profiling/pandas-profiling.git
+# RUN pip install pandas-profiling
+# RUN pip install plotly
 
 COPY docker-entrypoint.sh /
 
