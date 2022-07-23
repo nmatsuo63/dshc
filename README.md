@@ -1,11 +1,3 @@
-# jupyter-notebook環境立ち上げセット
-
-https://zenn.dev/k8shiro/articles/my-docker-jupyterlab
-
-- port: 8888
-- 初期パスワード：password
-
-
 # 使い方
 
 - パスワード設定
@@ -30,5 +22,12 @@ host側の`./ipynb/`は`/home/jovyan/work`にマウントされている。
 
 jupyter/datascience-notebookベース
 追加で必要なものがあれば`./jupyter/requirements.txt`に追記
+
+# 参考：jupyter-notebook環境立ち上げセット
+
+https://zenn.dev/k8shiro/articles/my-docker-jupyterlab
+
+- port: 8888
+- 初期パスワード：password
 
 
