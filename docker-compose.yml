@@ -1,6 +1,7 @@
 version: '3'
 services:
   jupyter:
+    platform: 'linux/amd64'
     build:
       context: ./jupyter
     volumes:
