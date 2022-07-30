@@ -2,3 +2,4 @@
 !/data/.gitkeep
 /submit/*
 !/submit/.gitkeep
+/ipynb/.ipynb_checkpoints/*
